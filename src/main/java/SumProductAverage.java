@@ -28,7 +28,7 @@ public class SumProductAverage {
             double b = in.nextDouble();
             double c = in.nextDouble();
 
-            double sum = a + b + c + c;
+            double sum = a + b + c;
             double product = a * b * c;
             double average = sum / 3.0;
 
