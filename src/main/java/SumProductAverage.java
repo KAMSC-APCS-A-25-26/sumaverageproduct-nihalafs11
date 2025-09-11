@@ -17,6 +17,29 @@ import java.util.Scanner;
 
 public class SumProductAverage {
     public static void main(String[] args) {
-        // TODO
+        Scanner in = new Scanner(System.in);
+
+        System.out.print("Enter number of sets (n): ");
+        int n = in.nextInt();
+
+        for (int i = 0; i < n; i++) {
+            System.out.print("Enter three numbers: ");
+            double a = in.nextDouble();
+            double b = in.nextDouble();
+            double c = in.nextDouble();
+
+            double sum = a + b + c + c;
+            double product = a * b * c;
+            double average = sum / 3.0;
+
+            System.out.println("Set " + (i + 1) + ":");
+            System.out.println("  the Sum     = " + sum);
+            System.out.println("  the Product = " + product);
+            System.out.println("  the Average = " + average);
+            System.out.println();
+        }
+
+        in.close();
     }
 }
+
