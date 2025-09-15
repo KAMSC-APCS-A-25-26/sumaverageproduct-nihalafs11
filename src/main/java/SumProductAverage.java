@@ -30,7 +30,7 @@ public class SumProductAverage {
 
             double sum = a + b + c;
             double product = a * b * c;
-            double average = sum / 3.0;
+            double average = sum / 3.0;hgghgg
 
             System.out.println("Set " + (i + 1) + ":");
             System.out.println("  the Sum     = " + sum);
